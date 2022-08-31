@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:minHeight="40dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userEditText"
+            android:importantForAutofill="no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:hint="@string/email_place_holder"
+            android:textColorHint="@color/mdtp_transparent_black"
+            android:inputType="text"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:singleLine="true"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/mdtp_transparent_black"
+            android:textStyle="bold"
+            android:background="@drawable/text_input_rounded_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/grey"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/grey"
+            app:hintEnabled="false">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/passwordEditText"
+                android:importantForAutofill="no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="60dp"
+                android:hint="@string/password_place_holder"
+                android:textColorHint="@color/mdtp_transparent_black"
+                android:inputType="textPassword"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:singleLine="true"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/mdtp_transparent_black"
+                android:textStyle="bold"
+                android:background="@drawable/text_input_rounded_gray" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:text="@string/login"
+            android:background="@drawable/button_rounded_purple"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">MyGym</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_qr">QR</string>
+    <string name="title_routines">Rutinas</string>
+
+    <!-- Login -->
+    <string name="forgotten_password">¿Olvidaste tu contraseña?</string>
+    <string name="email_place_holder">correo@mail.com</string>
+    <string name="password_place_holder">********</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="send">Enviar</string>
+    <string name="recover_password">Recuperar contraseña</string>
+    <string name="recover_password_description">Enviaremos a tu correo electrónico tu información de inicio de sesión.</string>
+    <string name="email_not_sent">¿No recibiste nuestro correo?</string>
+    <string name="resend">REENVIAR</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">@color/accent</color>
+    <color name="primaryDark">#1d5a8e</color>
+    <color name="accent">#3298F0</color>
+    <color name="grayLight">#d2d7db</color>
+    <color name="grayDark">#424242</color>
+    <color name="blueLight">#c2daef</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#5DB0B0</color>
+    <color name="green_yellow">#91f200</color>
+    <color name="orange">#ff9900</color>
+    <color name="brown">#996633</color>
+
+    <color name="colorPrimary">#83398A</color>
+    <color name="colorPrimaryDark">#4C1E50</color>
+    <color name="colorAccent">#B14CBA</color>
+
+    <color name="purpleDark">#5B24A0</color>
+    <color name="purple">#7A43E3</color>
+    <color name="purpleSuperLight">#aea7fd</color>
+    <color name="purpleLight">#8F86F5</color>
+    <color name="grey">#C8CFD6</color>
+    <color name="dark_grey">#495765</color>
+    <color name="light_grey">#d6d7d7</color>
+    <color name="light_super_grey">#f4f6fb</color>
+    <color name="grey_plus">#acacba</color>
+    <color name="mdtp_transparent_black">#7f000000</color>
+    <color name="no_color">#00000000</color>
+
+    <color name="grey_10">#e6e6e6</color>
+
+</resources>
